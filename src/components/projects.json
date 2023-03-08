@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "/moodmix-demo.gif",
+      "image": "./moodmix-demo.gif",
       "title": "MoodMix",
       "description": " A fusion of flavors and inspiration: recipes and cocktails to suit your mood.",
       "link": "https://emilielondon.github.io/MoodMix/",

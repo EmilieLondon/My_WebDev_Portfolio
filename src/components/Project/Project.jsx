@@ -1,11 +1,13 @@
 import React from "react";
 import projects from "../projects.json";
 
+
 function Project(props) {
   return (
     <div className="card">
       <div className="content">
-        {projects.map((item) => {
+        {projects.map((item, index) => {
+          
           return (
             <div className="cardContainer">
               <div className="card" key={item.id}>
@@ -15,7 +17,7 @@ function Project(props) {
                   <a href={item.link}>
                     <img
                       className="img-container"
-                      src={item.image}
+                      src={process.env.PUBLIC_URL + item.image}
                       alt={item.title}
                     />
                   </a>
