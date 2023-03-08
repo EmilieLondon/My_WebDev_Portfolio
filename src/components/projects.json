@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "image": "/moodmix-demo.gif",
+      "title": "MoodMix",
+      "description": " A fusion of flavors and inspiration: recipes and cocktails to suit your mood.",
+      "link": "https://emilielondon.github.io/MoodMix/",
+      "repo": "https://github.com/EmilieLondon/MoodMix"
+    },
+    {
+      "id": 2,
+      "image": "/TeamView-Generator.png",
+      "title": "TeamView-Generator",
+      "description": "A command-line application that takes in information about team members, then generates an HTML webpage that displays a summary for each person.",
+      "link": "https://emilielondon.github.io/TeamView-Generator",
+      "repo": "https://github.com/EmilieLondon/TeamView-Generator"
+    },
+    {
+      "id": 3,
+      "image":"/WeatherDashboard.png",
+      "title": "WeatherDashboard",
+      "description": "This weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for any city using the search option.",
+      "link": "https://emilielondon.github.io/WeatherDashboard",
+      "repo": "https://github.com/EmilieLondon/WeatherDashboard"
+    },
+    {
+      "id": 4,
+      "image": "/DailyPlannerApp.png",
+      "title": "DailyPlannerApp",
+      "description": "A simple calendar application that allows a user to save events for each hour of the day.",
+      "link": "https://emilielondon.github.io/DailyPlannerApp",
+      "repo": "https://github.com/EmilieLondon/DailyPlannerApp"
+    },
+    {
+      "id": 5,
+      "image": "/CodeQuiz.png", 
+      "title": "CodeQuiz",
+      "description": "A timed, multiple-choice coding quiz that can keep track of high scores and quiz-takers' initials.",
+      "link": "https://emilielondon.github.io/CodeQuiz/",
+      "repo": "https://github.com/EmilieLondon/CodeQuiz"
+    },
+    {
+      "id": 6,
+      "image": "/console-finances.png",
+      "title": "Console-Finances",
+      "description": "Analyzing the financial records of a company",
+      "link": "https://emilielondon.github.io/Console-Finances/",
+      "repo": "https://github.com/EmilieLondon/Console-Finances"
+    }
+  ]
