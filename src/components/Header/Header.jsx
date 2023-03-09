@@ -15,7 +15,7 @@ function Header() {
         <Nav className="me-auto">
           <Link to="home">Home</Link>
           <Link to="contact">Contact</Link>
-          <Link to="project">Portfolio</Link>
+          <Link to="portfolio">Portfolio</Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

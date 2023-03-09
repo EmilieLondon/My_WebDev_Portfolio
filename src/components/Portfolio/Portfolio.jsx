@@ -1,48 +1,66 @@
-// import React from "react";
-// import Project from "../Project/Project";
-// import projects from "../projects.json"
+import React from "react";
+import projects from "../projects.json";
+import Card from 'react-bootstrap/Card';
 
-// function Portfolio() {
-//   return ( 
-//     <>
-//     <Project
-//       title={projects[0].title}
-//       description={projects[0].description}
-//       link={projects[0].link}
-//       repo={projects[0].repo}
-//     />
-//     <Project
-//        title={projects[1].title}
-//        description={projects[1].description}
-//        link={projects[1].link}
-//        repo={projects[1].repo}
-//     />
-//     <Project
-//        title={projects[2].title}
-//        description={projects[2].description}
-//        link={projects[2].link}
-//        repo={projects[2].repo}
-//     />
-//     <Project
-//       title={projects[3].title}
-//       description={projects[3].description}
-//       link={projects[3].link}
-//       repo={projects[3].repo}
-//     />
-//     <Project
-//        title={projects[4].title}
-//        description={projects[4].description}
-//        link={projects[4].link}
-//        repo={projects[4].repo}
-//     />
-//     <Project
-//        title={projects[5].title}
-//        description={projects[5].description}
-//        link={projects[5].link}
-//        repo={projects[5].repo}
-//     />
-//   </>
-// );
+function Portfolio(props) {
+  return (
+    <Card style={{ width: '18rem' }}>
+
+      {projects.map((item, index) => {
+        return (
+          <>
+      <Card.Img variant="top" src={process.env.PUBLIC_URL + item.image} />
+      <Card.Body key={item.id}>
+      <Card.Title>{item.title}</Card.Title>
+
+         <Card.Text>
+         {item.description}
+        </Card.Text>
+          </Card.Body>
+
+        <Card.Body>
+        <Card.Link href="{item.link}">Deployed Version</Card.Link>
+        <Card.Link href="{item.repo}">GitHub Repository</Card.Link>
+        </Card.Body>
+        </>
+          );
+      })}
+    </Card>
+    );
+    }
+
+   
+export default Portfolio;
+
+{/* // function Portfolio(props) { */}
+{/* //   return (
+//     <div className="card">
+//       <div className="content">
+//         {projects.map((item, index) => { */}
+{/*           
+//           return (
+//             <div className="cardContainer">
+//               <div className="card" key={item.id}>
+//                 <div className="card-body card-style">
+//                   <h5 className="card-title">{item.title}</h5>
+//                   <p className="card-text">{item.description}</p>
+//                   <a href={item.link}>
+//                     <img */}
+{/* //                       className="img-container"
+//                       src={process.env.PUBLIC_URL + item.image}
+//                       alt={item.title}
+//                     />
+//                   </a> */}
+{/* //                   <section>GitHub repository: {item.repo}</section>
+//                 </div> */}
+{/* //               </div> */}
+{/* //             </div>
+//           ); */}
+{/* //         })}
+//       </div> */}
+{/* //     </div> */}
+{/* //   );
 // }
 
-// export default Portfolio;
+// export default Portfolio; */}
+
