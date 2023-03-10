@@ -6,6 +6,9 @@ function Contact() {
   <>
          <div className="container" id="contact">
       <h3>Contact Me</h3>
+      <div className="py-6">
+          <ContactForm />
+        </div>
       <section className="contact-details">
           <div>
           <i className="fa-regular fa-paper-plane" />
@@ -20,15 +23,12 @@ function Contact() {
         </div>
         <div>
           <i className="fa-brands fa-instagram" />
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
             {" "}
-            Instagram
+            LinkedIn
           </a>
         </div>
       </section>
-      <div className="py-6">
-          <ContactForm />
-        </div>
     </div>
   
   
