@@ -5,13 +5,13 @@ function Header() {
   return (
     <Nav  variant="tabs" >
         <Nav.Item>
-        <Nav.Link href="home">Home</Nav.Link>
+        <Nav.Link href="#/My_WebDev_Portfolio">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="portfolio">Portfolio</Nav.Link>
+        <Nav.Link href="#/portfolio">Portfolio</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="contact">Contact</Nav.Link>
+        <Nav.Link href="#/contact">Contact</Nav.Link>
       </Nav.Item>
           </Nav>
   );
