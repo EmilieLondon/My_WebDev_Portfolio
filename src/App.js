@@ -9,14 +9,14 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Routes>
-        <Route path="My_WebDev_Portfolio" element={<Home />} />
+        <Route path="home" element={<Home />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
