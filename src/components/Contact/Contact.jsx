@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../ContactForm";
 
 function Contact() {
   return ( 
@@ -6,11 +7,7 @@ function Contact() {
          <div className="container" id="contact">
       <h3>Contact Me</h3>
       <section className="contact-details">
-        <div>
-          <i className="fa-solid fa-mobile-retro" />
-          <a href="tel:+44.777.555.333"> +44.777.555.333</a>
-        </div>
-        <div>
+          <div>
           <i className="fa-regular fa-paper-plane" />
           <a href="mailto:someone@example.com"> Email</a>
         </div>
@@ -29,7 +26,11 @@ function Contact() {
           </a>
         </div>
       </section>
+      <div className="py-6">
+          <ContactForm />
+        </div>
     </div>
+  
   
   </>
   );
