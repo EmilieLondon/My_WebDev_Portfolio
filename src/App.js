@@ -12,9 +12,9 @@ function App() {
     <HashRouter>
       <Header />
       <Routes>
-        <Route path="My_WebDev_Portfolio" element={<Home />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </HashRouter>
   );
