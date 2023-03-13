@@ -10,8 +10,8 @@ https://emilielondon.github.io/My_WebDev_Portfolio
 
 ### Built With
 
-[![React][React.js]][React-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [React](https://reactjs.org)
+* [Bootstrap](https://getbootstrap.com/)
 
 ## Future Development
 Styling!
