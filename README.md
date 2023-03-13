@@ -17,10 +17,10 @@ https://emilielondon.github.io/My_WebDev_Portfolio
 Styling!
 
 ## Acknowledgements
-* [Helena G]()
-* [Vinh La](https://github.com/VinhKietLa)
-* [Andrew Layendecker](https://github.com/ALayendecker)
-* [Jonathan Courtney](https://github.com/jjcourtney)
+* [Helena G]() who shared [Transform tools](https://transform.tools/html-to-jsx) which helped me get started
+* [Vinh La](https://github.com/VinhKietLa) who was a great help with my Git issues
+* [Andrew Layendecker](https://github.com/ALayendecker) without whom I would have an Error 404 to show for my efforts
+* [Jonathan Courtney](https://github.com/jjcourtney) who managed to get my images to display
 * [HeroTofu](https://herotofu.com/solutions/guides/react-contact-form) for the embedded contact form
 
 ## License
