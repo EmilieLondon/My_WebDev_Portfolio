@@ -18,8 +18,8 @@ function Portfolio(props) {
           </Card.Body>
 
         <Card.Body>
-        <Card.Link href="{item.link}">Website</Card.Link>
-        <Card.Link href="{item.repo}">GitHub</Card.Link>
+        <Card.Link href={item.link}>Website</Card.Link>
+        <Card.Link href={item.repo}>GitHub</Card.Link>
         </Card.Body>
         </div>
           );
