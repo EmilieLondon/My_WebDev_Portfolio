@@ -1,3 +1,12 @@
 .cardContainer{
-    padding-top: 0.5rem;
+    padding: 1rem 0 1rem 0;
+    margin: 10rem 0 10rem 0 solid purple!important;
+}
+
+.buttonContainer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px;
 }
